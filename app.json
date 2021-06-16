@@ -1,8 +1,8 @@
 {
-    "name": "xkcd-generator",
-    "description": "An app to send xkdc to your email",
-    "repository": "https://github.com/ritu2828/xkcd-buildpack-php.git",
-    "keywords": ["xkcd", "email", "comic"],
+    "name": "xkcd-webcomics",
+    "description": "An app to send xkdc to your email as an email attachment",
+    "repository": "https://github.com/ritu2828/xkcd",
+    "keywords": ["xkcd", "email", "webcomic"],
     "buildpacks": [
     {
       "url": "https://github.com/heroku/heroku-buildpack-php"
