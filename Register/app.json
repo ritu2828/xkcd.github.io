@@ -1,0 +1,8 @@
+
+{
+    "name": "xkcd-generator",
+    "description": "An app to send xkdc to your email",
+    "repository": "https://github.com/rtlearn/php-ritu2828",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["xkcd", "email"]
+  }
