@@ -2,7 +2,7 @@
 {
     "name": "xkcd-generator",
     "description": "An app to send xkdc to your email",
-    "repository": "https://github.com/rtlearn/php-ritu2828-buildpack-php.git",
+    "repository": "https://github.com/ritu2828/xkdc-buildpack-php.git",
     "keywords": ["xkcd", "email", "comic"],
     "buildpacks": [
     {
