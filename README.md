@@ -8,4 +8,4 @@ verifying their mail, they can log in to receive the mails.
 
 To deploy on heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ritu2828/xkdc/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ritu2828/xkdc)
