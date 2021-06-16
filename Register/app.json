@@ -1,8 +1,12 @@
-
+  
 {
     "name": "xkcd-generator",
     "description": "An app to send xkdc to your email",
-    "repository": "https://github.com/rtlearn/php-ritu2828",
-    "logo": "https://node-js-sample.herokuapp.com/node.png",
-    "keywords": ["xkcd", "email"]
-  }
+    "repository": "https://github.com/rtlearn/php-ritu2828-buildpack-php.git",
+    "keywords": ["xkcd", "email", "comic"],
+    "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-php"
+    }
+    ]
+}
