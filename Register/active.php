@@ -32,7 +32,7 @@ if(isset($_GET['token'])){
 }
   else{
     $_SESSION['message']="Account not activated";
-    header('location:index.html');
+    header('location:registration.php');
     $_SESSION['msg']=NULL;
   }
 }
