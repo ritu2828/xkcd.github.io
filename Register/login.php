@@ -61,7 +61,7 @@ if(isset($_POST['login']))
                  placeholder="Password" required><br>
 
      	<button type="submit" name="login" class="log">Log In</button>
-          <p class="already"> Don't have an account?<a href= 'index.html'> Register Now </a></p>
+          <p class="already"> Don't have an account?<a href= 'registration.php'> Register Now </a></p>
      </form>
 </body>
 </html>
