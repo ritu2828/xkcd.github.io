@@ -65,7 +65,7 @@ if($mail)
 ?>  
 <html>
 <br><br>
-<h2 style="text-align:center color:Tomato"  margin='.67em 0' > You have been subscribed! You'll receive a new comic every 5 minutes! Click here to unsubscribe: </h2>
+<h2 style="text-align:center color:#00203FFF"  margin='.67em 0' > You have been subscribed! You'll receive a new comic every 5 minutes! Click here to unsubscribe: </h2>
 <link rel='stylesheet' type='text/css' href='css/style.css' />
 <form action="" method="post">
 <input type="submit" name="Unsub" value="Unsubscribe"> </input>
@@ -101,15 +101,3 @@ setTimeout(function () { window.location.reload(); }, 5*60*1000);
 
 document.write(new Date());
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
