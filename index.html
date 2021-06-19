@@ -2,6 +2,58 @@
 <html>
 <head>
      <title> Welcome Page </title>
-<meta http-equiv="refresh" content="1;url=http://127.0.0.1/Register/registration.php"> 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="refresh" content="5;url=http://127.0.0.1/Register/registration.php">
+<style>
+
+ .container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  overflow: hidden;
+  animation: movecontainer 2s 0.7s forwards;
+}
+
+.first {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 2rem;
+  font-weight: 100;
+  transform: translate(-50%, -50%);
+  
+}
+
+.second {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  font-size: 1.7rem;
+  font-weight: 100;
+  transform: translate(-50%, -50%);
+  
+}
+
+@keyframes movecontainer{
+0%{
+    transform: scale(1.4);
+}
+100%{
+    transform: scale(1.1);
+}
+}
+
+</style>
 </head>
-<body> <p> Welcome </p></body>
+<body style="overflow:hidden"> 
+     <div class="container">
+          <img src="VpqdKh.png" style="width:100%">
+          <div class="first">Welcome! <br> Please log in or create an account to start receiving comics :)</div>
+          <div class="second">Please wait you're being redirected...</div>
+        </div>
+         
+ </body>
+</html>
