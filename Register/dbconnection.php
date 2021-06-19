@@ -8,11 +8,11 @@ $dbname = "signup";
 
 $connection = mysqli_connect($server, $user, $password, $dbname);
 
-if ($connection) {
+/*if ($connection) {
     echo '<script>alert("Connection successful!")</script>';
 }
 else
 {
     echo '<script>alert("Connection failed!")</script>';
-}
+}*/
 ?>
