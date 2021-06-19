@@ -1,43 +1,58 @@
-
-
 *{
     margin: 0;
     padding: 0;
     outline: none;
     box-sizing: border-box;
     list-style: none;
-	font-family: sans-serif;
-	box-sizing: border-box;
+    text-decoration: none;
 	
 }
 
-html{
-    font-size: 72.5%;
+.size{
+	position: relative;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+    background-color: #ADEFD1FF;
 }
+
+.size-login{
+	margin-top: 10%;
+	margin-left: 2%;
+    background-color: #ADEFD1FF;
+}
+
 form {
+	position: absolute;
+	font-size: 1rem;
 	margin-left: 30%;
 	width: 500px;
-	border: 3px solid maroon;
+	border: 3px solid #00203FFF;
 	padding: 20px;
 	background: #fff;
-	border-radius: 15px;
+	border-radius: 25px;
+	
 }
 
 h2 {
 	text-align: center;
 	margin-bottom: 20px;
+
 }
 
 input {
+
+	font-size: 1rem;
 	display: block;
 	border: 2px solid #ccc;
 	width: 95%;
-	padding: 10px;
+	padding: 5px;
 	margin: 10px auto;
 	border-radius: 5px;
 }
+
 label {
-	color: #888;
+	font-size: 1rem;
+	color: black;
 	font-size: 18px;
 	padding: 10px;
 }
@@ -45,7 +60,7 @@ label {
 button {
 	width: 5rem;
     height: 2rem;
-    background-color: brown;
+    background-color:  #00203FFF;
     border: none;
     font-family: serif;
     font-size: 2rem;
