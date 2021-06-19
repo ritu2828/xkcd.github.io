@@ -5,13 +5,13 @@
 	<title>SIGN UP</title>
     <link rel='stylesheet' type='text/css' href='css/style.css' />
     <?php include 'links/links.php'; ?>
-   
+    
     
 </head>
-   
-<body>
+<body class="size">
+
      <form action="" method="post">
-     	<h2>Create an account</h2>
+     	<h2>Create An Account</h2>
 
          <?php
          
@@ -72,7 +72,7 @@
 
          }
              ?>
-     	
+     
          <label>Enter Name</label>
           <?php if (isset($_GET['name'])) { ?>
                <input type="text" 
@@ -111,6 +111,7 @@
      	<button type="submit" name="submit">Sign Up</button>
           <p class="already"> Already have an account?<a href= 'login.php'> Log In</a></p>
      </form>
+          
 </body>
 </html>
 
